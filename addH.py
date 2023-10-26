@@ -95,15 +95,6 @@ for i in range(len(cent)):
 
 ##### Make a new xyz file #####
 
-#f = open('new.xyz', mode='w')
-#f.write(str(len(atom_list)) + '\n\n')
-#f = open('new.xyz', mode='a')
-#for i in atom_list:
-#    p = [i[0], float(i[1]), float(i[2]), float(i[3])]
-#    f.write('\t'.join(str(n) for n in p))
-#    f.write('\n') 
-#f.close
-
 print(str(len(atom_list)) + '\n')
 for i in atom_list:
     p = [i[0], float(i[1]), float(i[2]), float(i[3])]
